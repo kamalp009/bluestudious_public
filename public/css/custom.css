@@ -1,0 +1,55 @@
+.rate-button {
+    background-color: #fff;
+    border: 1px solid #d7d8d7;
+    border-radius: 4px;
+    padding: 4px 16px;
+    margin-top: 5px;
+    color: #282828;
+  }
+  .rate-button + .rate-button {
+    margin-left: 16px;
+  }
+  .tmp-referal .small-12.medium-8.medium-offset-2.cell {
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+  .buy-card-program-page {
+    display: none;
+  }
+  .tmp-program .buy-card-program-page {
+    display: block;
+  }
+  
+  .buy-card-program-page {
+    background: #f6f5f6;
+    padding: 20px;
+  }
+  
+  .buy-card-program-page .container > h2 {
+    color: #1a74b8;
+    font-weight: bold;
+    margin: 20px auto;
+    margin-bottom: 35px;
+  }
+  
+  .buy-card-program-page--products {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+  .buy-card-program-page--products > div {
+    width: 33.33%;
+    margin: 0 10px;
+  }
+  
+   @media only screen and (max-width:767px) {
+     .buy-card-program-page--products > div {
+       width: 100%;
+       margin: 20px 0;
+     }
+     .tmp-referal .page > .container > .row > .col-12 {
+        max-height: 1100px;
+        overflow: hidden;
+     }
+   }
